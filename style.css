@@ -45,10 +45,10 @@ input {
   width: 0;
 }
 
-.text-1 {
+/* .text-1 {
   font-size: 1rem;
   width: 10rem;
-}
+} */
 
 .mem__navigation {
   display: flex;
@@ -70,8 +70,57 @@ label > span {
   height: 1.1rem;
   background-color: black;
   border-radius: 50%;
+  border: 0.1rem solid black;
 }
 
 label > span:hover {
   background-color: rgba(55, 55, 55, 0.5);
+}
+
+#meme_1:checked ~ .nav-wrapper .mem__navigation #mem-control-1 #point-1 {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+#meme_2:checked ~ .nav-wrapper .mem__navigation #mem-control-2 #point-2 {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+#meme_3:checked ~ .nav-wrapper .mem__navigation #mem-control-3 #point-3 {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+#meme_4:checked ~ .nav-wrapper .mem__navigation #mem-control-4 #point-4 {
+  border: 0.1rem solid rgb(255, 0, 0);
+}
+
+#meme_2:checked ~ .mem__slider .slider-wrapper  {
+  transform: translateX(-25%);
+}
+
+#meme_3:checked ~ .mem__slider .slider-wrapper  {
+  transform: translateX(-50%);
+}
+
+#meme_4:checked ~ .mem__slider .slider-wrapper  {
+  transform: translateX(-75%);
+}
+
+#meme_1:checked ~ .nav-wrapper .mem-content .text-1 {
+  font-size: 1rem;
+  width: 10rem;
+}
+
+#meme_2:checked ~ .nav-wrapper .mem-content .text-2 {
+  font-size: 1rem;
+  width: 10rem;
+}
+
+#meme_3:checked ~ .nav-wrapper .mem-content .text-3 {
+  font-size: 1rem;
+  width: 10rem;
+}
+
+#meme_4:checked ~ .nav-wrapper .mem-content .text-4 {
+  font-size: 1rem;
+  width: 10rem;
 }
