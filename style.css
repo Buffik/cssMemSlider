@@ -1,6 +1,7 @@
 section {
   width: 100%;
   height: 100vh;
+  padding: 0.2rem;
 }
 
 input {
@@ -23,6 +24,11 @@ input {
   display: flex;
   justify-content: center;
   width: 25%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .nav-wrapper {
@@ -129,7 +135,7 @@ label > span:hover {
   width: 10rem;
 }
 
-@media (max-width: 630px) {
+/* @media (max-width: 630px) {
 
   img {
     width: 20rem;
@@ -139,7 +145,7 @@ label > span:hover {
   .nav-wrapper {
     max-width: 20rem;
   }
-}
+} */
 
 @media (max-width: 321px) {
   img {
