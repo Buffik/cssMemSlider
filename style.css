@@ -140,3 +140,36 @@ label > span:hover {
     max-width: 20rem;
   }
 }
+
+@media (max-width: 321px) {
+  img {
+    width: 18rem;
+    height: 15.75rem;
+  }
+
+  .nav-wrapper {
+    max-width: 18rem;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .mem-content {
+    display: flex;
+    width: 100%;
+  }
+
+  label {
+    width: 1.5rem;
+    height: 2rem;
+    margin-left: 0.3rem;
+  
+  }
+
+  label > span {
+    width: 0.8rem;
+    height: 0.8rem;
+    background-color: black;
+    border-radius: 50%;
+    border: 0.1rem solid black;
+  }
+}
